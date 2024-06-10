@@ -1,0 +1,11 @@
+{players.map(player => {
+        return <Player
+          name={player.name}
+          team={player.team}
+          nationality={player.nationality}
+          jersynumber={player.jersynumber}
+          age={player.age} />
+
+
+
+      })}
